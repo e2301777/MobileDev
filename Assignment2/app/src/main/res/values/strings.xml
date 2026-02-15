@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Example_32</string>
+    <string name="tw_fname">First name</string>
+    <string name="tw_lname">Last name</string>
+    <string name="tw_phone">Phone number</string>
+    <string name="tw_bday">Birthday</string>
+    <string name="btn_send">Send</string>
+    <string name="tw_home">Home address</string>
+    <string name="tw_email">Email address</string>
+</resources>
