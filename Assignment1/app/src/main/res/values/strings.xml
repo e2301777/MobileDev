@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Example_21</string>
+    <string name="app_name">Feedback app</string>
     <string name="text">Greetings!</string>
     <string name="fname">First name</string>
     <string name="fnameh">Enter first name</string>
@@ -11,5 +11,6 @@
     <string name="commenth">Type a comment</string>
     <string name="send">Send</string>
     <string name="reset">Reset</string>
+    <string name="logo">logo</string>
 
 </resources>
