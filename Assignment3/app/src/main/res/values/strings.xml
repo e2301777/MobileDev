@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="title">BlogPoster</string>
+    <string name="filter">Filter by:</string>
+    <string name="userName">Username:</string>
+    <string name="userNameHint">Username</string>
+    <string name="comment">Message:</string>
+    <string name="messageHint">Share your thoughts</string>
+    <string name="submitButton">Submit</string>
+    <string name="textSearch">Text</string>
+    <string name="dateSearch">Date</string>
+    <string name="textSearchHint">Search...</string>
+    <string name="searchButton">Search</string>
+    <string name="dateTime">Timestamp</string>
+    <string name="refreshButton">Refresh</string>
+</resources>
