@@ -14,13 +14,13 @@ public class BlogEntryHandler {
     }
 
     public List<BlogEntry> filterByText(String filterText) {
-        List<BlogEntry> foundMatches = new ArrayList<>();
+        List<BlogEntry> matches = new ArrayList<>();
         for (BlogEntry entry : blogEntries) {
             if (entry.searchByText(filterText)) {
-                foundMatches.add(entry);
+                matches.add(entry);
             }
         }
-        return foundMatches;
+        return matches;
     }
 
     public List<BlogEntry> filterByDate(String filterDate) {
