@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment42</string>
+    <string name="productId">ID</string>
+    <string name="productName">Name</string>
+    <string name="unitPrice">Price</string>
+    <string name="totalAmount">Amount</string>
+    <string name="add">Add product</string>
+    <string name="reset">Reset</string>
+    <string name="emptyFields">Fill in all textfields</string>
+    <string name="errorMsg">Id already exists %s</string>
+</resources>
