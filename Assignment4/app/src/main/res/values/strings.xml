@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment41</string>
+    <string name="yourNumberTxt">Type your favourite number between 0-10</string>
+    <string name="randomNumberTxt">Random number: </string>
+    <string name="sameNumber">Your number is the same as the random number!</string>
+    <string name="enterNumber">Please enter a number</string>
+
+</resources>

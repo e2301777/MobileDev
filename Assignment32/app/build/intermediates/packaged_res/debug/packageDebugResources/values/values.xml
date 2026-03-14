@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add">+</string>
+    <string name="appName">Assignment3-2</string>
+    <string name="backspace">Back</string>
+    <string name="clear">AC</string>
+    <string name="displayHint">0</string>
+    <string name="divide">/</string>
+    <string name="divide_with_0">Invalid operation</string>
+    <string name="dot">.</string>
+    <string name="equals">=</string>
+    <string name="multiply">x</string>
+    <string name="num0">0</string>
+    <string name="num00">00</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="percent">%</string>
+    <string name="subtract">−</string>
+    <style name="Base.Theme.Assignment32" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Assignment32" parent="Base.Theme.Assignment32"/>
+</resources>
