@@ -15,9 +15,7 @@ public class Product {
         this.amount = amount;
     }
 
-    public String getId(){
-        return id;
-    }
+
 
     public double getTotal(){
         return price*amount;

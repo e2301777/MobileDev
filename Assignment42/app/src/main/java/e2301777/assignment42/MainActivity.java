@@ -34,64 +34,64 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-// Here we define parameters for views
+// Layout params
         viewLayoutParams = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
         viewLayoutParams.leftMargin = 40;
         viewLayoutParams.rightMargin = 40;
         viewLayoutParams.topMargin = 50;
         viewLayoutParams.bottomMargin = 10;
-// Here we create the layout
+
         LinearLayout linearLayout = new LinearLayout(this);
         linearLayout.setOrientation(LinearLayout.VERTICAL);
-// Here we define a text view
+// Id
         TextView idLabel = new TextView(this);
         idLabel.setText(R.string.productId);
         idLabel.setLayoutParams(viewLayoutParams);
         idLabel.setTextSize(15);
         linearLayout.addView(idLabel);
-// Here we define the edit text
+
         productId= new EditText(this);
         productId.setLayoutParams(viewLayoutParams);
         productId.setInputType(InputType.TYPE_CLASS_NUMBER);
         productId.setTextSize(15);
         linearLayout.addView(productId);
-
+//Name
         TextView nameLabel = new TextView(this);
         nameLabel.setText(R.string.productName);
         nameLabel.setLayoutParams(viewLayoutParams);
         nameLabel.setTextSize(15);
         linearLayout.addView(nameLabel);
-// Here we define the edit text
+
         productName= new EditText(this);
         productName.setLayoutParams(viewLayoutParams);
         productName.setInputType(InputType.TYPE_CLASS_TEXT);
         productName.setTextSize(15);
         linearLayout.addView(productName);
-
+//Price
         TextView priceLabel = new TextView(this);
         priceLabel.setText(R.string.unitPrice);
         priceLabel.setLayoutParams(viewLayoutParams);
         priceLabel.setTextSize(15);
         linearLayout.addView(priceLabel);
-// Here we define the edit text
+
         productPrice= new EditText(this);
         productPrice.setLayoutParams(viewLayoutParams);
         productPrice.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
         productPrice.setTextSize(15);
         linearLayout.addView(productPrice);
-
+//Amount
         TextView amountLabel = new TextView(this);
         amountLabel.setText(R.string.totalAmount);
         amountLabel.setLayoutParams(viewLayoutParams);
         amountLabel.setTextSize(15);
         linearLayout.addView(amountLabel);
-// Here we define the edit text
+
         productAmount= new EditText(this);
         productAmount.setLayoutParams(viewLayoutParams);
         productAmount.setInputType(InputType.TYPE_CLASS_NUMBER);
         productAmount.setTextSize(15);
         linearLayout.addView(productAmount);
-// Here we define a text view
+//Buttons
         Button addButton = new Button(this);
         addButton.setLayoutParams(viewLayoutParams);
         addButton.setInputType(InputType.TYPE_CLASS_TEXT);
@@ -105,13 +105,13 @@ public class MainActivity extends AppCompatActivity {
         resetButton.setText(R.string.reset);
         resetButton.setTextSize(15);
         linearLayout.addView(resetButton);
-
+//Scrollview
         ScrollView scrollView = new ScrollView(this);
         allProducts = new TextView(this);
         allProducts.setPadding(20,5,0,5);
         scrollView.addView(allProducts);
         linearLayout.addView(scrollView);
-
+//onClickListeners
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
                 productAmount.setText("");
             }
         });
-
+//Orientation
         orientation = getResources().getConfiguration().orientation;
 
         if(orientation == Configuration.ORIENTATION_LANDSCAPE){

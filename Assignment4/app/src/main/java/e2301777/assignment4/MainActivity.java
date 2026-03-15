@@ -26,36 +26,34 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-// Here we define parameters for views
+//Layout params
         viewLayoutParams = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
         viewLayoutParams.leftMargin = 40;
         viewLayoutParams.rightMargin = 40;
         viewLayoutParams.topMargin = 50;
         viewLayoutParams.bottomMargin = 10;
-// Here we create the layout
+
         LinearLayout linearLayout = new LinearLayout(this);
         linearLayout.setOrientation(LinearLayout.VERTICAL);
-// Here we define a text view
+//Your number
         TextView yourNumberLabel = new TextView(this);
         yourNumberLabel.setText(R.string.yourNumberTxt);
         yourNumberLabel.setLayoutParams(viewLayoutParams);
         yourNumberLabel.setTextSize(30);
         linearLayout.addView(yourNumberLabel);
-// Here we define the edit text
+
         EditText yourNumber= new EditText(this);
         yourNumber.setLayoutParams(viewLayoutParams);
         yourNumber.setInputType(InputType.TYPE_CLASS_NUMBER);
         yourNumber.setTextSize(30);
-
-
         linearLayout.addView(yourNumber);
-// Here we define a text view
+//Random number
         TextView randomNumberLabel = new TextView(this);
         randomNumberLabel.setText(R.string.randomNumberTxt);
         randomNumberLabel.setLayoutParams(viewLayoutParams);
         randomNumberLabel.setTextSize(30);
         linearLayout.addView(randomNumberLabel);
-
+//onKeyListener
         yourNumber.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
@@ -75,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
                     return true;
                 }
+
                 return false;
             }
         });
