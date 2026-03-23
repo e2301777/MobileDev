@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="firstNameLabel">First name: </string>
+    <string name="lastNameLabel"> Last name: </string>
+    <string name="phoneLabel"> Phone: </string>
+    <string name="submitHeader">Submit info</string>
+    <string name="submitButton">Submit</string>
+    <string name="searchHeader">Search by:</string>
+    <string name="dataSubmitted">Data Submitted</string>
+    <string name="fillAllFields">Please fill all fields</string>
+    <string name="duplicatePhone">Phone number already exists!</string>
+    <string name="resetButton">Reset</string>
+</resources>
