@@ -32,7 +32,6 @@ public class DatabaseHandler {
         phoneList.add(stringBuilder.toString());
     }
 
-    //Phone check
     public static boolean checkDuplicatePhone(String phone) {
         for (String entry : phoneList) {
             if (entry.startsWith(phone)) {

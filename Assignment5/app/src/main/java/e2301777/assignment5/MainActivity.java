@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //updateAdapters();
 //Autocomplete listeners
         firstNameAuto.setOnItemClickListener((adapterView, view, position, id) -> {
             String formatted = DatabaseHandler.formatResult(
